@@ -50,11 +50,11 @@ export default function CartCard({ item }) {
               onClick={() => removeFromCartHandler(item)}
             ></i>
           </div>
-          <div style={{ margin: "10px" }}>&#8377 {item.price}</div>
+          <div style={{ margin: "10px" }}>&#8377; {item.price}</div>
           <div className="item-total">
             {" "}
             <div style={{ marginLeft: "10px" }}>
-              &#8377 {item.cartQuantity * item.price}
+              &#8377; {item.cartQuantity * item.price}
             </div>
           </div>
         </div>

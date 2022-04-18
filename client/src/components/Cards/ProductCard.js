@@ -28,7 +28,7 @@ export default function ProductCard({ product }) {
 
       <div className="product-price">
         <div>
-          <h4>MRP &#8377;{product.price}</h4>
+          <h4> &#8377;{product.price}</h4>
         </div>
         <div className="button">
           <button type="submit" onClick={() => handleAddToCart(product)}>
